@@ -1,0 +1,43 @@
+.menu {
+    color: var(--primary-color);
+    font-size: 1em;
+}
+
+.menu_background {
+    width: 290px;
+    height: 290px;
+}
+
+.wrap {
+    z-index: 1;
+}
+
+.text_wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    margin-top: -240px;
+    margin-left: -50px;
+}
+
+.exit {
+    font-size: 50;
+}
+
+.exit:hover {
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 25px;
+    font-size: 25px;
+}
+
+.menu {
+    width: "70px";
+    height: "55px";
+    cursor: "pointer";
+}

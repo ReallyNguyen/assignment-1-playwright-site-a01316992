@@ -1,0 +1,65 @@
+.main {
+    max-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 45px;
+    height: 55px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 220px;
+    margin-left: 360px;
+}
+
+.title {
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 30px;
+}
+
+.text>p {
+    font-size: 17px;
+    color: var(--primary-color);
+    font-weight: 300;
+}
+
+.buttons>a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.buttons>a>button {
+    height: 32px;
+    width: 144px;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    padding: -16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttons>a>button:hover {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    transition: background-color .4s ease-in;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    right: 39px;
+    top: 495px;
+    cursor: pointer;
+}

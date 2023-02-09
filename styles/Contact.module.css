@@ -1,0 +1,128 @@
+.main {
+    height: 90vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 55px;
+}
+
+.contact_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110;
+    margin-right: 50px;
+}
+
+.contact_title {
+    display: flex;
+    flex-direction: row;
+    gap: 144px;
+}
+
+.contact_name {
+    margin-top: -16px;
+    color: var(--primary-color);
+}
+
+.contact_title>div {
+    height: 5px;
+    border-radius: 50px;
+    width: 200px;
+    background-color: var(--secondary-color);
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 192px;
+    color: var(--primary-color);
+}
+
+.container {
+    max-height: 190px;
+    width: 650px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 192px;
+    width: 650px;
+    border: 3px solid var(--quinary-color);
+}
+
+.first_row>td {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.first_row>td>div>input {
+    border: none;
+    width: 285px;
+    padding: 1px;
+    padding-left: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.second_row>td>div>input {
+    width: 575px;
+    padding: 1px;
+    padding-left: 4px;
+    margin-top: 8px;
+    border: none;
+}
+
+.top {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.bottom {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.lastname {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.warnings {
+    width: 80%;
+}
+
+.warnings>p {
+    color: red;
+}
+
+.arrow {
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+    top: 700px;
+    width: 40px;
+    height: 60px;
+}
